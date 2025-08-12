@@ -2,3 +2,4 @@
 *.cache
 *~
 *update-waybar-config.sh
+update-waybar-config
