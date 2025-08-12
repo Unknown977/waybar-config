@@ -1,0 +1,32 @@
+{
+    "layer": "top",
+    "exclusive": false,
+    "position": "bottom",
+    "height": 50,
+    "width": 50,
+    "spacing": 4,
+    "margin": "0 0 10 0",
+
+    "modules-left": ["custom/app-launcher", "custom/separator"],
+    "modules-center": ["wlr/taskbar"],
+
+    "custom/app-launcher": {
+        "format": "󰀻",
+        "tooltip": "true",
+        "on-click": "nwg-drawer"
+    },
+
+    "custom/separator": {
+        "format": "|",
+        "tooltip": false
+    },
+
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 26,
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "all-outputs": false
+    }
+}

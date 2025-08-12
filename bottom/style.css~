@@ -1,0 +1,9 @@
+window#waybar {
+    background-color: #282828;
+    color: #ffffff;
+    border: none;
+    font-family: "Sans", "Font Awesome 6 Free", "Noto Sans Mono";
+    font-size: 14px;
+}
+
+

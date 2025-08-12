@@ -1,0 +1,30 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": [],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "network", "custom/power"],
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-icons": {
+            "default": ["", "󰕿", "󰖀", "󰕾"]
+        },
+        "scroll-step": 10,
+        "on-click": "pavucontrol"
+    },
+    "network": {
+        "format": "󰈀",
+        "format-ethernet": "󰈀",
+        "tooltip-format": "{ifname}",
+        "on-click": "nm-connection-editor"
+    },
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "wlogout",
+        "tooltip": false
+    },
+    "clock": {
+        "format": "{:%a, %d %b %H:%M}",
+        "tooltip-format": "{:%A, %d %B %Y, %H:%M:%S}"
+    }
+}

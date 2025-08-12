@@ -1,0 +1,32 @@
+window#waybar {
+    background-color: #282828;
+    color: #ffffff;
+    border: none;
+    font-family: "Sans", "Font Awesome 6 Free", "Noto Sans Mono";
+    font-size: 14px;
+}
+
+#clock {
+    font-weight: bold;
+}
+
+#pulseaudio {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#network {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#custom-power {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+}
+
+/* Optional: Add hover effects for right-side modules */
+#pulseaudio:hover, #network:hover, #custom-power:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
