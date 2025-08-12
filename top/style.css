@@ -24,6 +24,7 @@ window#waybar {
     padding-left: 8px;
     padding-right: 8px;
     font-size: 20px;
+    font-weight: bold
 }
 
 /* Optional: Add hover effects for right-side modules */
