@@ -6,21 +6,17 @@
     "width": 50,
     "spacing": 4,
     "margin": "0 0 10 0",
-
     "modules-left": ["custom/app-launcher", "custom/separator"],
     "modules-center": ["wlr/taskbar"],
-
     "custom/app-launcher": {
         "format": "󰀻",
         "tooltip": "true",
-        "on-click": "nwg-drawer"
+        "on-click": "sherlock"
     },
-
     "custom/separator": {
         "format": "|",
         "tooltip": false
     },
-
     "wlr/taskbar": {
         "format": "{icon}",
         "icon-size": 26,
